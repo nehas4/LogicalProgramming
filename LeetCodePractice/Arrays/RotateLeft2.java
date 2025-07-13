@@ -6,6 +6,8 @@ public class RotateLeft2 {
   // First reverse the whole array
   // Second reverse array from start till length - k
   // Third reverse the last k mumber
+  // Time Complexity = O(N)
+  // Space Complexity = O(N)
   public int[] rotateLeft(int[] arr, int k)
   {
     // If array length is same as k then result of rotation is same as original array, so if k is greater than array length, we need to rotate only k % arr.length times
