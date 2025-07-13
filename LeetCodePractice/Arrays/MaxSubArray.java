@@ -5,6 +5,8 @@ public class MaxSubArray {
   // Here we are using approach called memorization, means we are using already derived result to solve further problem
   // This is an example of dynamic problem
   // This approach also called KADANE's algorithm
+  // Time Complexity = O(N)
+  // Space Complexity = O(1)
   public int maxSubArray(int[] array)
   {
     int max = array[0];
