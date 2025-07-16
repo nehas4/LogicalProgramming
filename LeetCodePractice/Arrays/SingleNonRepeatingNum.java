@@ -1,11 +1,13 @@
 import java.util.Scanner;
 
 // This class has function to return single non-repeating number in a array
-// This problem can be solved by maintaining a map ti save the number and its related frequency
+// This problem can be solved by maintaining a map to save the number and its related frequency
 // Here it is solved by using xor bitwise operator. This operator is commutative.
 // A xor A = 0
 // A xor 0 = A
 // A xor B xor C = A xor C xor B
+// Time Complexity = O(N)
+// Space Complexity = O(1)
 public class SingleNonRepeatingNum {
 
   int singleNumber(int[] numArr) {
