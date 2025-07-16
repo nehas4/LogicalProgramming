@@ -5,6 +5,8 @@ public class FirstUniqueCharacter {
   // Function to find first unique character in a string
   // Use map to save each character in the string and its related frequency
   // loop through map and the first character with 1 as frequency is the result
+  // Time complexity = O(N)
+  // Space complexity = O(N)
   int firstUniqChar(String str)
   {
     int index = 0;
