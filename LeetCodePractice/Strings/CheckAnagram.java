@@ -1,6 +1,14 @@
 import java.util.Scanner;
 public class CheckAnagram{
   
+  // This functions checks if given 2 tetxt are anagram, means they have same characters appearing same number of times
+  // Do check that initialize array of 26 size equal to alphabets number
+  // Each index will indicate the related ascii character
+  // Loop through str1 and increment each character index found
+  // Loop through str2 and decrement each character index found
+  // At the end if there is any non-zero value in array means its not an anagram
+  // Time complexity = O(N)
+  // Space complexity = O(1)
   boolean isAnagram(String str1, String str2)
   {
     str1 = str1.toLowerCase();
