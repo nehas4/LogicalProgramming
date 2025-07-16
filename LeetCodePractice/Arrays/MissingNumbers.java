@@ -7,7 +7,9 @@ public class MissingNumbers {
   // Here we are using a treeMap to store the values of array-1 and its frequency.
   // For second array we decrement the frequency and remove any value which has 0 frequency
   // So we are left with only numbers/values which are not present in second array
-  // Last we add all the vLues of treeMap to result array. Since treeMap store  alues in sorted order so we get list if sorted missing numbers
+  // Last we add all the values of treeMap to result array. Since treeMap store values in sorted order so we get list if sorted missing numbers
+  // Time Complexity = O(N)
+  // Space Complexity = O(N)
   public int[] missingNumbers(int[] arr, int[] brr)
   {
     TreeMap<Integer, Integer> intTreeMap = new TreeMap<>();
