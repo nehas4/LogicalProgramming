@@ -5,6 +5,8 @@ public class LongestPalindrome {
   // Maintain 2 pointers and for each index move both the pointers in left right direction until same charater
   // compare each pointer palindrome with previous one and take longest
   // Do above for both cases: even and odd length
+  // Time complexity = O(N)
+  // Space complexity = O(N)
   String longestPalindrome(String str)
   {
     if (str.length() <= 1)
