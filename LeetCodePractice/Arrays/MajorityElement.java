@@ -1,4 +1,4 @@
-class Solution {
+class MajorityElement {
     // This function finds the majority element, means number with maximum occurences in an array.
     // This can be solved by different methods.
     // 1. By maintaining map with each number frequency. But it has space complexity as O(N) as it uses HashMap.
