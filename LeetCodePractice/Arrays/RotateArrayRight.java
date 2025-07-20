@@ -1,4 +1,4 @@
-class Solution {
+class RotateArrayRight {
 
     // Function to rotate an array for k times
     public void rotate(int[] nums, int k) {
