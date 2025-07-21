@@ -2,7 +2,7 @@ package LeetCodePractice.Arrays;
 
 import java.lang.Math;
 
-class BuyAndSellProfit {
+class BuyAndSellProfit1 {
 
     // This function loops through array containing prices value at each day (index)
     // purpose is to buy the stocks and sell it on days that can make most profit
