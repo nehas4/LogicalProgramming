@@ -1,26 +1,10 @@
 package practice;
 
-import java.io.UnsupportedEncodingException;
-import java.net.URLDecoder;
-import java.net.URLEncoder;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.LinkedHashMap;
 import java.util.Map;
-import java.util.Properties;
-import java.util.Set;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-
-import javax.swing.text.html.HTML;
-
-import org.apache.commons.codec.binary.Hex;
-import org.apache.commons.lang3.StringEscapeUtils;
-import org.w3c.dom.html.HTMLElement;
-import org.w3c.dom.html.HTMLUListElement;
-
-import com.google.common.html.HtmlEscapers;
 
 public class Main 
 {

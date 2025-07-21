@@ -1,3 +1,5 @@
+package LeetCodePractice.Arrays;
+
 class MajorityElement {
     // This function finds the majority element, means number with maximum occurences in an array.
     // This can be solved by different methods.

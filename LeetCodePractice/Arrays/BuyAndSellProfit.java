@@ -1,3 +1,5 @@
+package LeetCodePractice.Arrays;
+
 import java.lang.Math;
 
 class BuyAndSellProfit {

@@ -1,3 +1,5 @@
+package LeetCodePractice.Arrays;
+
 class RotateArrayRight {
 
     // Function to rotate an array for k times

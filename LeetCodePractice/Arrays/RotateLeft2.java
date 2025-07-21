@@ -1,3 +1,5 @@
+package LeetCodePractice.Arrays;
+
 import java.util.Scanner;
 public class RotateLeft2 {
   

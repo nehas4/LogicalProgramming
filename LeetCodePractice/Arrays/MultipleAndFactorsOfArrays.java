@@ -1,4 +1,7 @@
+package LeetCodePractice.Arrays;
+
 import java.util.List;
+import java.util.ArrayList;
 
 public class MultipleAndFactorsOfArrays {
 	
@@ -8,13 +11,13 @@ public class MultipleAndFactorsOfArrays {
 	public int getTotalMutlipltFactorOfArrays(List<Integer> list1, List<Integer> list2)
 	{
 		int list1LCM = list1.get(0);
-		while(int n : list1)
+		for(int n : list1)
 		{
 			list1LCM = getLCM(list1LCM, n);
 		}
 		
 		int list2GCD = list2.get(0);
-		while(int n : list2)
+		for(int n : list2)
 		{
 			list2GCD = getGCD(list2GCD, n);
 		}
@@ -63,11 +66,11 @@ public class MultipleAndFactorsOfArrays {
 	}
 	
 	public static void main(String[] args) {
-		List<Integer> nums1 = new List<>();
+		List<Integer> nums1 = new ArrayList<>();
 		nums1.add(2);
 		nums1.add(4);
 		
-		List<Integer> nums2 = new List<>();
+		List<Integer> nums2 = new ArrayList<>();
 		nums2.add(16);
 		nums2.add(32);
 		nums2.add(96);

@@ -1,3 +1,5 @@
+package LeetCodePractice.Strings;
+
 import java.util.Scanner;
 public class LongestPalindrome {
   

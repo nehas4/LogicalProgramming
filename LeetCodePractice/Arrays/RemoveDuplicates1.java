@@ -1,3 +1,5 @@
+package LeetCodePractice.Arrays;
+
 class RemoveDuplicates1 {
     // This function removes the duplicates in a sorted array, keeping only single instances of each element
     // All the unique elements should be at the start of array and doesnt matter whats left at the end

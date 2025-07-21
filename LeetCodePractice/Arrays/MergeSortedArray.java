@@ -1,3 +1,5 @@
+package LeetCodePractice.Arrays;
+
 class MergeSortedArray {
   
     // This function merges to sorted array in one array.

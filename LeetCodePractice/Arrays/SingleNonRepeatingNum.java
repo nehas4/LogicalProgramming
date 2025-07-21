@@ -1,3 +1,5 @@
+package LeetCodePractice.Arrays;
+
 import java.util.Scanner;
 
 // This class has function to return single non-repeating number in a array
