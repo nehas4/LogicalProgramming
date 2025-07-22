@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 public class NumberPairsForTargetVal {
   
-  // Function to do binary search of a given number on an array
+  // Function to do binary search of a given number on an sorted array
   private boolean binarySearch(int[] arr, int numToFind)
   {
     int left = 0;
@@ -63,6 +63,7 @@ public class NumberPairsForTargetVal {
     
     System.out.println("Enter the target value: ");
     int targetVal = sc.nextInt();
+    sc.close();
     
     NumberPairsForTargetVal pairObj = new NumberPairsForTargetVal();
     System.out.println("Total number of pairs found are: "+pairObj.getTargetValPairs(inputArr, targetVal));

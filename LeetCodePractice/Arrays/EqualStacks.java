@@ -4,12 +4,12 @@ import java.util.Stack;
 import java.util.Scanner;
 public class EqualStacks {
   
-  // Provided 3 arrays with different value as in cylinder height. Need to remove some cylinders from one or more cylinder of array so that each array total cyclinder height is same
-  // For this we take 3 stacks and fill each  of the stacks with current sum at each index in array
+  // Provided 3 arrays with different value as in cylinder height. Need to remove some cylinders from one or more cylinder of array so that each array total cylinder height is same
+  // For this we take 3 stacks and fill each of the stacks with current sum at each index in array
   // Loop till none of the stack is empty
-  // Get current hieght of each stack
-  // Check which stack hieght is more than others and remove cylinder from it
-  // Check if all 3 stack hieghts are same then return the hieght
+  // Get current height of each stack
+  // Check which stack height is more than others and remove cylinder from it
+  // Check if all 3 stack heights are same then return the height
   // Time Complexity = O(N1 + N2 + N3)
   // Space Complexity = O(N1 + N2 + N3)
   public int equalStacks(int[] h1, int[] h2, int[] h3)
@@ -58,8 +58,8 @@ public class EqualStacks {
     return maxHieght;
   }
   
-  // Function to fill the stacks with sum of hieghts at each hieght value
-  private void fillStacks(Stack stk1, int[] h1, Stack skt2, int[] h2, Stack stk3, int[] h3)
+  // Function to fill the stacks with sum of heights at each height value
+  private void fillStacks(Stack<Integer> stk1, int[] h1, Stack<Integer> skt2, int[] h2, Stack<Integer> stk3, int[] h3)
   {
     int totalHieght = 0;
     for(int i=h1.length-1; i>=0; i--)
@@ -110,6 +110,7 @@ public class EqualStacks {
     for (int i = 0; i < size; i++) {
       h3[i] = sc.nextInt();
     }
+    sc.close();
     
     EqualStacks es = new EqualStacks();
     int result = es.equalStacks(h1, h2, h3);

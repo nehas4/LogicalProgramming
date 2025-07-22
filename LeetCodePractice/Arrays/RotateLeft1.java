@@ -47,6 +47,7 @@ public class RotateLeft1 {
     
     System.out.println("Enter the no of left rotation: ");
     int k = sc.nextInt();
+    sc.close();
     
     RotateLeft1 rl = new RotateLeft1();
     int[] result = rl.rotateLeft(inputArr, k);

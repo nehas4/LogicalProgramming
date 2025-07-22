@@ -16,12 +16,15 @@ public class MissingNumbers {
   {
     TreeMap<Integer, Integer> intTreeMap = new TreeMap<>();
     
+    // Loop through first array and add each element as key and increment its related frequency
     for (int i : brr) {
       int freq = intTreeMap.getOrDefault(i,0);
       freq++;
       intTreeMap.put(i, freq);
     }
     
+    // Loop through second array an0 decrement each key value related frequency
+    // If at any time frequency is 0, then remove that element from tree map
     for (int i : arr) {
       int freq = intTreeMap.getOrDefault(i,0);
       freq--;
@@ -35,6 +38,7 @@ public class MissingNumbers {
       }
     }
     
+    // Move all values of treemap to result array
     int [] result = new int[intTreeMap.size()];
     int i = 0;
     for(Map.Entry<Integer, Integer> integerEntry : intTreeMap.entrySet())
@@ -65,6 +69,7 @@ public class MissingNumbers {
     for (int i = 0; i < size; i++) {
       brr[i] = sc.nextInt();
     }
+    sc.close();
     
     //Call missing numbers functions
     MissingNumbers mn = new MissingNumbers();

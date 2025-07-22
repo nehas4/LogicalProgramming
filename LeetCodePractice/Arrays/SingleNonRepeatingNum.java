@@ -29,6 +29,7 @@ public class SingleNonRepeatingNum {
     for (int i = 0; i < size; i++) {
       inputArr[i] = sc.nextInt();
     }
+    sc.close();
 
     SingleNonRepeatingNum srn = new SingleNonRepeatingNum();
     System.out.println(

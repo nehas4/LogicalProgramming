@@ -1,7 +1,7 @@
 package LeetCodePractice.Arrays;
 
 class RemoveElement {
-    // This function removes all occurence of a given value in an array, in-place without changing the order of elements
+    // This function removes all occurrence of a given value in an array, in-place without changing the order of elements
     // For this maintain one pointer for array where values need to be retained
     // Loop through array and for each element not equal to given value, save it at retaining pointer and increment the pointer
     // It doesn't matter what remains at the end indexes of array after removal of value and retaining the valid elements

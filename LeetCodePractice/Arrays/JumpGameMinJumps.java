@@ -3,7 +3,7 @@ package LeetCodePractice.Arrays;
 public class JumpGameMinJumps {
 	
 	// Given an array with number of jumps possible at each index as value, return the minimum number of jumps to reach end of array
-	// In the below solution we are checking at each index whats the maximum number of jump we can make, then is called coverage
+	// In the below solution we are checking at each index what's the maximum number of jump we can make, then it is called coverage
 	// Also we maintain the last jump index or last coverage to check when i reach it then update it to current coverage and increment total jumps
     public int jump(int[] nums) {
 

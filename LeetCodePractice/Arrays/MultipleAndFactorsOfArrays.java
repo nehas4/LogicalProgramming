@@ -8,7 +8,7 @@ public class MultipleAndFactorsOfArrays {
 	// Given 2 arrays, find number of integers such that they are multiple of first array and factors of second array
 	// For this calculate the LCM of first array and GCD of second array
 	// Then Check all the multiples of LCM which can divide GCD (factor of GCD)
-	// Time complexity = O(NlogN) because helper function getGCD woks with this time complexity
+	// Time complexity = O(NlogN) because helper function getGCD works with this time complexity
 	// Space complexity = O(1)
 	public int getTotalMutlipltFactorOfArrays(List<Integer> list1, List<Integer> list2)
 	{

@@ -31,6 +31,7 @@ public class MaxSubArray {
     for (int i = 0; i < size; i++) {
       inputArr[i] = sc.nextInt();
     }
+    sc.close();
     
     MaxSubArray msa = new MaxSubArray();
     System.out.println("Maximim sum of contiguous subarray for given array is "+msa.maxSubArray(inputArr));

@@ -50,6 +50,7 @@ public class RotateLeft2 {
     
     System.out.println("Enter the no of left rotation: ");
     int k = sc.nextInt();
+    sc.close();
     
     RotateLeft2 rl = new RotateLeft2();
     int[] result = rl.rotateLeft(inputArr, k);

@@ -1,7 +1,7 @@
 package LeetCodePractice.Arrays;
 
 class MajorityElement {
-    // This function finds the majority element, means number with maximum occurences in an array.
+    // This function finds the majority element, means number with maximum occurrences in an array.
     // This can be solved by different methods.
     // 1. By maintaining map with each number frequency. But it has space complexity as O(N) as it uses HashMap.
     // 2. By sorting the array and then taking the middle value, which will be the majority value. But this has time complexity as NlogN as it uses sorting.
@@ -32,4 +32,10 @@ class MajorityElement {
         }
         return majority;
     }
+    
+    public static void main(String[] args) {
+		int[] inputArr = new int[] {1,1,3,2,3,3};
+		MajorityElement me = new MajorityElement();
+		System.out.println("Majority of given element is "+me.majorityElement(inputArr));
+	}
 }
