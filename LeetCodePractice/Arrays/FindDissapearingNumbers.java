@@ -5,8 +5,14 @@ import java.util.List;
 
 
 /*
- * An integer array of size 'n' contains elements in the range of [ 1, n ] There may or may not be repeating numbers. You need to find the numbers that are disappeared from this range.
+ * [LeetCode 448]
  * 
+ * An integer array of size 'n' contains elements in the range of [ 1, n ],
+ * There may or may not be repeating numbers. 
+ * You need to find the numbers that are disappeared from this range.
+ * 
+ * Time complexity: O(N)
+ * Space complexity: O(N)
  * */
 public class FindDissapearingNumbers {
 	
@@ -18,7 +24,7 @@ public class FindDissapearingNumbers {
     	List<Integer> result = new ArrayList<>();
     	for(int i=0; i<nums.length; i++)
     	{
-    		// Take current element value and consider it the index to check and mark
+    		// Take current element value and consider it the index to check and marked
     		int index = Math.abs(nums[i]) - 1;
     		// if value at this index is greater than 0, then make it negative by multiplying it by -1
     		if(nums[index] > 0)

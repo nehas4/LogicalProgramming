@@ -2,7 +2,13 @@ package LeetCodePractice.Arrays;
 
 
 /*
- * Given an array of positive integers with some zeroes. You need to move all the zeroes to the end without changing the relative order of non-zero elements.
+ * [LeetCode 283]
+ * 
+ * Given an array of positive integers with some zeroes. 
+ * You need to move all the zeroes to the end without changing the relative order of non-zero elements.
+ * 
+ * Time complexity: O(N)
+ * Space complexity: O(1)
  * */
 public class MoveZeros {
 	
