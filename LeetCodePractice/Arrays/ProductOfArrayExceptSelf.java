@@ -1,9 +1,17 @@
 package LeetCodePractice.Arrays;
 
+
+/*
+ * [LeetCode 238]
+ * 
+ * Given an integer array nums, return an array answer such that answer[i] is equal to the product of all the elements of nums except nums[i].
+ * 
+ * Time complexity: O(n)
+ * Space complexity: O(n)
+ * */
 public class ProductOfArrayExceptSelf {
 	
-	// Given an integer array nums, return an array answer such that answer[i] is equal to the product of all the elements of nums except nums[i].
-	// For that main a left and right array where left or right side product of i will be saved at i
+	// For this solution maintain a left and right array where left or right side product of i will be saved at i
 	// Then for result just return product of both of these arrays
     public int[] productExceptSelf(int[] nums) {
     	
