@@ -8,7 +8,7 @@ package LeetCodePractice.Arrays;
  * Find maximum money which can robbed such that no two adjacent houses are robbed.
  * Note: The houses are in circular pattern such that last house is adjacent to first house.
  * 
- * Since first and last house and adjacent and we cant loot both of them then we need to check for 2 scenarios
+ * Since first and last house and adjacent and we can't loot both of them then we need to check for 2 scenarios
  * - pick the first house for evaluation
  * - pick the last house for evaluation
  * The get the maximum value from both

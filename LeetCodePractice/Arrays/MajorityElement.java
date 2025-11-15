@@ -1,5 +1,16 @@
 package LeetCodePractice.Arrays;
 
+
+/*
+ * [LeetCode 169]
+ * 
+ * Given an array nums of size n, return the majority element.\
+ * The majority element is the element that appears more than ⌊n / 2⌋ times. 
+ * You may assume that the majority element always exists in the array.\
+ * 
+ * Time Complexity: O(n)
+ * Space Complexity: O(1)
+ * */
 class MajorityElement {
     // This function finds the majority element, means number with maximum occurrences in an array.
     // This can be solved by different methods.

@@ -2,10 +2,18 @@ package LeetCodePractice.Arrays;
 
 import java.lang.Math;
 
+/*
+ * [LeetCode 121]
+ * 
+ * This function loops through array containing prices value at each day (index)
+ * purpose is to buy the stocks and sell it on days that can make most profit
+ * 
+ * Time Complexity: O(n)
+ * Space Complexity: O(1)
+ * */
 class BuyAndSellProfit1 {
 
-    // This function loops through array containing prices value at each day (index)
-    // purpose is to buy the stocks and sell it on days that can make most profit
+
     // So maintain 2 pointers - left: pointing low price day, right: pointing to high price day
     // If right price is greater, calculate profit
     // else move left pointer to next low price i.e., current right
