@@ -10,8 +10,8 @@ import java.util.List;
  * 
  * Given an array of intervals, merge all the overlapping intervals. Return a n array of non-overlapping intervals.
  * 
- * Time Complexity: 
- * Space Complexity: 
+ * Time Complexity: O(NlogN)
+ * Space Complexity: O(N)
  * 
  * */
 public class MergeIntervals {
