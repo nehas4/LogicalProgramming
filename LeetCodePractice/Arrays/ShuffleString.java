@@ -9,8 +9,8 @@ package LeetCodePractice.Arrays;
  * In the above approach we are using a extra structure so space overhead is there.
  * Instead we can use a simple a array of characters.
  * 
- * Time complexity: 
- * Space complexity: 
+ * Time complexity: O(n)
+ * Space complexity: O(n)
  * 
  * */
 public class ShuffleString {
