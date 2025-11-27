@@ -3,7 +3,8 @@ package LeetCodePractice.Arrays;
 /*
  * [LeetCode 1004]
  * 
- * Given a binary array, that contains only 0 and 1. Determine the maximum consecutive 1s that can be obtained by flipping atmost 'k' zeroes.
+ * Given a binary array, that contains only 0 and 1. 
+ * Determine the maximum consecutive 1s that can be obtained by flipping atmost 'k' zeroes.
  * 
  * Time Complexity: O(N)
  * Space Complexity: O(1)
