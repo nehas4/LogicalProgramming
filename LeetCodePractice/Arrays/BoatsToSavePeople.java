@@ -8,8 +8,8 @@ import java.util.Arrays;
  * 
  * Given an array of people weights, and a maximum weight limit. Find the maximum boats such that each boat has a maximum capacity of 2.
  * 
- * Time Complexity: 
- * Space Complexity: 
+ * Time Complexity: O(NlogN)
+ * Space Complexity: O(1)
  * 
  * */
 public class BoatsToSavePeople {
