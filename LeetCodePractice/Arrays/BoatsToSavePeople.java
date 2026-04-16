@@ -15,7 +15,7 @@ import java.util.Arrays;
 public class BoatsToSavePeople {
 
 	/*
-	 * In this solution we first sort the array so that lass weight people are at the front of array and maximum weight people are at the end of the array.
+	 * In this solution we first sort the array so that less weight people are at the front of array and maximum weight people are at the end of the array.
 	 * Maintain 2 pointer one to the start of the array and one to the end of the array
 	 * While looping check if current left (less weight person) and right (more weight person) can be put in same boat or not means if their weight together is less than limit
 	 * Based on above condition increment left pointer if left person is included in boat.
